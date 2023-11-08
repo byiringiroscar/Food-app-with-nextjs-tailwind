@@ -1,5 +1,6 @@
 import Feature from '@/components/Feature'
 import Hero from '@/components/Hero'
+import Menu from '@/components/Menu'
 import Services from '@/components/Services'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Feature />
       <Services />
+      <Menu />
     </main>
   )
 }
