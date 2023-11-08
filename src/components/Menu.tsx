@@ -1,6 +1,7 @@
 import React from 'react'
 import Dash from "./Dash";
 import Image from "next/image";
+import MenuCard from './MenuCard';
 
 const menuData = [
     {
@@ -90,7 +91,7 @@ const Menu = () => {
                 </div>
 
                 <div className="grid w-fit mx-auto sm:grid-cols-2 gap-4">
-                {/* {menuData.map((item, index) => (
+                {menuData.map((item, index) => (
                     <MenuCard
                     key={index}
                     img={item.img}
@@ -98,7 +99,7 @@ const Menu = () => {
                     desc={item.desc}
                     price={item.price}
                     />
-                ))} */}
+                ))}
                 </div>
       </div>
     </div>
