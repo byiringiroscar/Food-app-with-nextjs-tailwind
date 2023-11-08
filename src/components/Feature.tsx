@@ -34,7 +34,20 @@ const Feature = () => {
                        />
                 <div className='space-y-4'>
                     <Dash />
-                    <h2 className='font-medium text-xl'>Shrimp Salad</h2>
+                    <h2 className='font-medium text-xl'>Baked apples</h2>
+                    <p className='text-gray-700 text-[14px] xl:text-[16px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis.</p>
+                </div>
+            </div>
+            <div className='w-fit mx-auto self-end'>
+                <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl'
+                       src='/grid__3.png'
+                       width={300}
+                       height={600}
+                       alt='grid image'
+                       />
+                <div className='space-y-4'>
+                    <Dash />
+                    <h2 className='font-medium text-xl'>Cherries Chicken</h2>
                     <p className='text-gray-700 text-[14px] xl:text-[16px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis.</p>
                 </div>
             </div>
