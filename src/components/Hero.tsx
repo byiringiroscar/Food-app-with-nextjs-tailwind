@@ -17,7 +17,7 @@ const Hero = () => {
                     Delicious food color, aroma and taste . <br />
                     What are you wainting for?
                 </p>
-                <button className='bg-accent text-white px-6 py-4 rounded-3xl text-[14px] sm:text-[16px]'>View More </button>
+                <button className='bg-accent text-white px-6 py-2 rounded-3xl text-[14px] sm:text-[16px]'>View More </button>
             </div>
         </div>
     </div>
