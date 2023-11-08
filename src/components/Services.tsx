@@ -1,4 +1,5 @@
 import Dash from "./Dash"
+import ServiceCard from "./ServiceCard"
 
 const servicesData = [
     {
@@ -35,7 +36,9 @@ const Services = () => {
         </div>
 
 
-        <div className="grid gap-10 md:grid-cols-4 md:gap-4 pt-8"></div>
+        <div className="grid gap-10 md:grid-cols-4 md:gap-4 pt-8">
+            {servicesData.map((item, index) => <ServiceCard key={index} img={item.img} title={item.title} desc={item.desc} /> )}
+        </div>
     </div>
   )
 }
