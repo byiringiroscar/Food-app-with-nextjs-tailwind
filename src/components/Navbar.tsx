@@ -8,11 +8,11 @@ const Navbar = () => {
         <div className='flex justify-between items-center'>
             <Image src='/logo.png' width={50} height={50} alt='logo' />
             <ul className='md:flex hidden gap-8 items-center font-semibold text-[14px]'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Food</li>
-                <li>Dish</li>
-                <li>Contact</li>
+                <li className='cursor-pointer'>Home</li>
+                <li className='cursor-pointer'>About</li>
+                <li className='cursor-pointer'>Food</li>
+                <li className='cursor-pointer'>Dish</li>
+                <li className='cursor-pointer'>Contact</li>
 
                 <button className='bg-accent text-white px-6 py-2 rounded-3xl'>SignUp</button>
             </ul>
