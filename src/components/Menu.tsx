@@ -88,7 +88,7 @@ const Menu = () => {
                     <MenuCard
                     key={index}
                     img={item.img}
-                    title={item.title}
+                    title={`item.title ${active}`}
                     desc={item.desc}
                     price={item.price}
                     />
