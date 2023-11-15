@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='container pt-6'>
         <div className='flex justify-between items-center'>
-            <Image src='/logo.png' width={50} height={50} alt='logo' />
+            <Image src='/logo.png' width={50} height={50} alt='logo' className='cursor-pointer' />
             <ul className='md:flex hidden gap-8 items-center font-semibold text-[14px]'>
                 <li className='cursor-pointer'>Home</li>
                 <li className='cursor-pointer'>About</li>
